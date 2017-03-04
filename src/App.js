@@ -9,9 +9,10 @@ import Detail from './section/MainComp/Detail';
 import Footer from './section/MainComp/Footer';
 import Map    from './section/MainComp/Map';
 
-//tests
 
-import Test16 from './section/Example/Test16';
+
+//Example
+import Test from './section/Example/movieAPI';
 
 
 
@@ -23,13 +24,11 @@ class App extends Component {
           <Row className="show-grid">
             <Col xs={18} md={12}><code>
 
-              
-
-
                 <Header/>
                 <Map/>
                 <Detail/>
                 <Footer/>
+                <Test/>
 
             </code></Col>
           </Row>
